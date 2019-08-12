@@ -8,7 +8,7 @@ A Python3 script to get info about repositories in https://github.com/github. It
 This script goes through all the pages of https://github.com/github and parses them.
 
 # Requirements
-Scripts requires Python3 with modules `argparse`, `bs4`, `requests` installed. It also uses `contextlib`, but it is standart.
+Script requires Python3 with modules `argparse`, `bs4`, `requests` installed. It also uses `contextlib`, but it is standart.
 ```
 pip3 install argparse
 pip3 install bs4
