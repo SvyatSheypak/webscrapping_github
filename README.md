@@ -5,6 +5,7 @@ A Python3 script to get info about repositories in https://github.com/github. It
 - Url
 - Programming language
 - List of tags
+
 This script goes through all the pages of https://github.com/github and parses them.
 
 # Requirements
