@@ -25,10 +25,13 @@ It creates a `out.csv` file.
 
 # Options
 `-f, --file` 
-        Output file name or path to output file (all directories should already exist). Default: `out.csv`
+        
+   Output file name or path to output file (all directories should already exist). Default: `out.csv`
         
 `-u, --url`
-        Url to scrap, no guarantee on urls other than https://github.com/github
+        
+   Url to scrap, no guarantee on urls other than https://github.com/github
 
 `-h, --help`
-        Display this help and exit
+
+   Display this help and exit
