@@ -6,6 +6,8 @@ A Python3 script to get info about repositories in https://github.com/github. It
 - Programming language
 - List of tags
 
+![Image](https://raw.github.com/SvyatSheypak/webscrapping_github/master/screenshot.png')
+
 This script goes through all the pages of https://github.com/github and parses them.
 
 # Requirements
@@ -19,4 +21,14 @@ pip3 install requests
 ```
 python3 webscrap.py
 ```
-It creates a `out.csv` file. You can write in a custom file using `-f` option. Link https://github.com/github can be substituted by any link via `-u` option, however, there is no guarantees on performance of the script in this case.
+It creates a `out.csv` file. 
+
+# Options
+`-f, --file` 
+        Output file name or path to output file (all directories should already exist). Default: `out.csv`
+        
+`-u, --url`
+        Url to scrap, no guarantee on urls other than https://github.com/github
+
+`-h, --help`
+        Display this help and exit
