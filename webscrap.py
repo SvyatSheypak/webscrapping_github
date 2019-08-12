@@ -15,11 +15,12 @@ def get_argparser():
     """Builds and returns a suitable argparser"""
     parser = argparse.ArgumentParser(description='')
     parser.add_argument('-f', '--file', nargs='?', type=str, default='out.csv',
-                        help='an output file name')
+                        help='Output file name or path to output file\
+                              (all directories should already exist)')
     parser.add_argument('-u', '--url', nargs='?',
                         type=str, default='https://github.com/github',
-                        help='an url to scrap, no guarantee\
-                        on urls other than https://github.com/github')
+                        help='Url to scrap, no guarantee\
+                              on urls other than https://github.com/github')
     return parser
 
 
