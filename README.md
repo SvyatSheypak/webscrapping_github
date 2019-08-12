@@ -6,7 +6,7 @@ A Python3 script to get info about repositories in https://github.com/github. It
 - Programming language
 - List of tags
 
-![Image](https://raw.github.com/SvyatSheypak/webscrapping_github/master/screenshot.png')
+![Image](https://raw.githubusercontent.com/SvyatSheypak/webscrapping_github/master/screenshot.png)
 
 This script goes through all the pages of https://github.com/github and parses them.
 
